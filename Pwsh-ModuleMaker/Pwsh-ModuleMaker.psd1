@@ -12,7 +12,7 @@
 RootModule = 'Pwsh-ModuleMaker.psm1'
 
 # Version number of this module.
-ModuleVersion = '19.5.27'
+ModuleVersion = '1905.1'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -70,7 +70,7 @@ Description = 'Initialize and build module projects for PowerShell'
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = 'New-ModuleFunction', 'New-ModuleProject', 'New-ModuleStandardConfig', 
-               'Start-ModuleBuild'
+               'Start-ModuleBuild', 'Update-ModuleProject'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()

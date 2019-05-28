@@ -4,11 +4,12 @@
     "New-ModuleFunction",
     "New-ModuleProject",
     "New-ModuleStandardConfig",
-    "Start-ModuleBuild"
+    "Start-ModuleBuild",
+    "Update-ModuleProject"
   ],
   "Path": "Pwsh-ModuleMaker/Pwsh-ModuleMaker.psd1",
   "Copyright": "2019",
-  "ModuleVersion": "19.05.27",
+  "ModuleVersion": "1905.01",
   "Description": "Initialize and build module projects for PowerShell",
   "Guid": "f253e846-bc04-4094-9c40-b7b5dc16bdb9",
   "VariablesToExport": [],
