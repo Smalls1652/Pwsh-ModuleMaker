@@ -15,6 +15,9 @@ begin {
     $FunctionsConfig = (ConvertFrom-Json -InputObject (Get-Content -Path (Join-Path -Path $ConfigsFolder.FullName -ChildPath "functions.json") -Raw))
 
     $ModuleManifestSplat = @{
+        "ModuleVersion"     = $ModuleManifestConfig.ModuleVersion;
+        "Description"       = $ModuleManifestConfig.Description;
+        "Copyright"         = $ModuleManifestConfig.Copyright;
         "FunctionsToExport" = $ModuleManifestConfig.FunctionsToExport;
         "Path"              = $ModuleManifestConfig.Path
     }
