@@ -1,0 +1,7 @@
+{
+  "ConfigPath": "./Configs",
+  "ScriptFilesPath": "./ScriptFiles",
+  "ModuleName": "Pwsh-ModuleMaker",
+  "TestsPath": "./Tests",
+  "ModulePath": "./Pwsh-ModuleMaker"
+}

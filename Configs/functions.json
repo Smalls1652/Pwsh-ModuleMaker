@@ -1,0 +1,20 @@
+{
+  "Functions": [
+    {
+      "FunctionName": "New-ModuleFunction",
+      "IsExported": true
+    },
+    {
+      "FunctionName": "New-ModuleProject",
+      "IsExported": true
+    },
+    {
+      "FunctionName": "New-ModuleStandardConfig",
+      "IsExported": true
+    },
+    {
+      "FunctionName": "Start-ModuleBuild",
+      "IsExported": true
+    }
+  ]
+}
